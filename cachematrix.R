@@ -2,7 +2,10 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+##
+## this function makes a special list for 
+##   caching an inverse matrix as an input
+##
 makeCacheMatrix <- function(y) {
 
   # set the cache value NULL
@@ -32,7 +35,9 @@ makeCacheMatrix <- function(y) {
 
 
 ## Write a short comment describing this function
-
+##  this function returns the inverse matrix 
+##    from the special list of cache matrix
+##
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
 
